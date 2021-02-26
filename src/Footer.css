@@ -1,0 +1,8 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+.footer-bottom {
+    background-color: gray;
+    height: 10vh;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+.swiper-container {
+    width: 80vw;
+    height: 300px;
+    border-radius: 50px;
+    border: 10px solid black;
+}
+
+img {
+    width: 80vw;
+    height: 300px;
+}
