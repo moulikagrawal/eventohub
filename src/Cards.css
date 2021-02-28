@@ -1,7 +1,5 @@
-@import url('bootstrap/dist/css/bootstrap.min.css');
-
-.event-header {
-    margin-left: 50px;
+.row {
+    margin-top: 50px;
 }
 
 .event-card {

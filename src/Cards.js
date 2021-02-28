@@ -1,12 +1,11 @@
 import React from 'react'
-import img1 from './1.jpg'
 import './Cards.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import img1 from './1.jpg'
 
 function Cards() {
     return (
         <div>
-            <h2 className='event-header'>Events:</h2>
+            <h2 className='header'>EVENTS</h2>
             <div className='row d-flex justify-content-center'>
                 <div className='event-card'>
                     <div className='event-card-front'>

@@ -1,7 +1,7 @@
+import React from 'react'
 import './Slider.css'
 import Swiper from 'swiper/bundle'
 import 'swiper/swiper-bundle.css'
-import React from 'react'
 import Slide1 from './1.jpg'
 import Slide2 from './2.jpg'
 import Slide3 from './3.jpg'
@@ -39,18 +39,18 @@ function Slider() {
                 {/* <!-- Additional required wrapper --> */}
                 <div class="swiper-wrapper">
                     {/* <!-- Slides --> */}
-                    <div class="swiper-slide"><img src={Slide1} alt='img-1' /></div>
-                    <div class="swiper-slide"><img src={Slide2} alt='img-2' /></div>
-                    <div class="swiper-slide"><img src={Slide3} alt='img-3' /></div>
-                    <div class="swiper-slide"><img src={Slide4} alt='img-4' /></div>
+                    <div className="swiper-slide"><img src={Slide1} alt='img-1' /></div>
+                    <div className="swiper-slide"><img src={Slide2} alt='img-2' /></div>
+                    <div className="swiper-slide"><img src={Slide3} alt='img-3' /></div>
+                    <div className="swiper-slide"><img src={Slide4} alt='img-4' /></div>
                 </div>
 
                 {/* <!-- If we need pagination --> */}
-                <div class="swiper-pagination"></div>
+                <div className="swiper-pagination"></div>
 
                 {/* <!-- If we need navigation buttons --> */}
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
 
             </div>
         </div>

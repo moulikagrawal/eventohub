@@ -1,8 +1,9 @@
 .swiper-container {
-    width: 80vw;
+    width: 80%;
     height: 300px;
     border-radius: 50px;
-    border: 10px solid black;
+    border: 2px solid royalblue;
+    z-index: auto;
 }
 
 img {
