@@ -1,5 +1,6 @@
 import React from 'react'
 import './Intro.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Intro() {
     return (

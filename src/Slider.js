@@ -1,11 +1,12 @@
 import React from 'react'
 import './Slider.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Swiper from 'swiper/bundle'
 import 'swiper/swiper-bundle.css'
-import Slide1 from './1.jpg'
-import Slide2 from './2.jpg'
-import Slide3 from './3.jpg'
-import Slide4 from './4.jpg'
+import Slide1 from './assets/images/1.jpg'
+import Slide2 from './assets/images/2.jpg'
+import Slide3 from './assets/images/3.jpg'
+import Slide4 from './assets/images/4.jpg'
 
 function Slider() {
 

@@ -1,3 +1,5 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
 .row {
     margin-top: 50px;
 }
@@ -6,8 +8,8 @@
     margin: 1rem;
     width: 300px;
     height: 300px;
-    border: 1px solid black;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+    border: 2px solid red;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
     perspective: 1000px;
     text-align: center;
 }
@@ -17,11 +19,11 @@
 }
 
 .event-card:hover .event-card-front {
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .event-card:hover .event-card-rear {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .event-img {
@@ -33,7 +35,7 @@
 .event-desc {
     margin-top: 15px;
     padding-top: 5px;
-    border-top: 2px solid black;
+    border-top: 2px solid royalblue;
     text-align: left;
 }
 
@@ -52,6 +54,16 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     z-index: 2;
+}
+
+.event-head {
+    color: blue;
+    text-decoration: underline;
+}
+
+.event-card-rear > p {
+    color: red;
+    font-weight: 500;
 }
 
 .content {

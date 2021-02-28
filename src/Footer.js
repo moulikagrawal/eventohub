@@ -1,13 +1,14 @@
 import React from 'react'
 import './Footer.css'
-import logo from './bulb.png'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import {Link } from "react-router-dom"
 
 function Footer() {
     return (
         <div>
             <footer>
                 <div className='footer-top'>
-                    <img src={logo} className='footer-img' alt='' />
+                    {/* <img src={logo} className='footer-img' alt='' /> */}
                     <div className='quick-access'>
                         <p className='title'>Quick Access</p>
                         <ul>    

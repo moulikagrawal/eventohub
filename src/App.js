@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import Navbar from './Navbar.js'
-import Slider from "./Slider.js"
+import Slider from './Slider.js'
 import Intro from './Intro.js'
 import Footer from './Footer.js'
 

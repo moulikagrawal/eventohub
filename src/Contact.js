@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './Navbar.js'
 import Footer from './Footer.js'
 
@@ -7,7 +8,7 @@ function Contact() {
     return (
         <div>
             <Navbar />
-            <br /><br /><br /><br/>
+            <br /><br /><br /><br/><br />
             <h2 className='header'>CONTACT US</h2>
             <div className='feedback-form'>
                 <form action='https://forms.gle/X1XYMCNAzvHRxof89'>

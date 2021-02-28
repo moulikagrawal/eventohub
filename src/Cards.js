@@ -1,6 +1,7 @@
 import React from 'react'
 import './Cards.css'
-import img1 from './1.jpg'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import img1 from './assets/images/1.jpg'
 
 function Cards() {
     return (
@@ -15,7 +16,7 @@ function Cards() {
                         </div>
                     </div>
                     <div className='event-card-rear'>
-                        <h4>Event Heading</h4>
+                        <h4 className='event-head'>Event Heading</h4>
                         <p className='content'>
                             Event Date:<br />
                             Event Time:<br />
@@ -33,7 +34,7 @@ function Cards() {
                         </div>
                     </div>
                     <div className='event-card-rear'>
-                        <h4>Event Heading</h4>
+                        <h4 className='event-head'>Event Heading</h4>
                         <p className='content'>
                             Event Date:<br />
                             Event Time:<br />
@@ -51,7 +52,7 @@ function Cards() {
                         </div>
                     </div>
                     <div className='event-card-rear'>
-                        <h4>Event Heading</h4>
+                        <h4 className='event-head'>Event Heading</h4>
                         <p className='content'>
                             Event Date:<br />
                             Event Time:<br />
@@ -69,7 +70,7 @@ function Cards() {
                         </div>
                     </div>
                     <div className='event-card-rear'>
-                        <h4>Event Heading</h4>
+                        <h4 className='event-head'>Event Heading</h4>
                         <p className='content'>
                             Event Date:<br />
                             Event Time:<br />
@@ -87,7 +88,7 @@ function Cards() {
                         </div>
                     </div>
                     <div className='event-card-rear'>
-                        <h4>Event Heading</h4>
+                        <h4 className='event-head'>Event Heading</h4>
                         <p className='content'>
                             Event Date:<br />
                             Event Time:<br />
@@ -105,7 +106,7 @@ function Cards() {
                         </div>
                     </div>
                     <div className='event-card-rear'>
-                        <h4>Event Heading</h4>
+                        <h4 className='event-head'>Event Heading</h4>
                         <p className='content'>
                             Event Date:<br />
                             Event Time:<br />
@@ -123,7 +124,7 @@ function Cards() {
                         </div>
                     </div>
                     <div className='event-card-rear'>
-                        <h4>Event Heading</h4>
+                        <h4 className='event-head'>Event Heading</h4>
                         <p className='content'>
                             Event Date:<br />
                             Event Time:<br />
@@ -141,7 +142,7 @@ function Cards() {
                         </div>
                     </div>
                     <div className='event-card-rear'>
-                        <h4>Event Heading</h4>
+                        <h4 className='event-head'>Event Heading</h4>
                         <p className='content'>
                             Event Date:<br />
                             Event Time:<br />

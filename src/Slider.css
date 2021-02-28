@@ -1,3 +1,5 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
 .swiper-container {
     width: 80%;
     height: 300px;

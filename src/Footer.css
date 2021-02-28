@@ -1,3 +1,5 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
 .footer-top {
     background-color: black;
     /* padding: 30px; */
@@ -33,10 +35,6 @@
     color: white;
     margin-left: 20px;
 } 
-
-.quick-access > ul > li {
-    padding: 5px;
-}
 
 .footer-bottom {
     /* margin-top: -16px; */
