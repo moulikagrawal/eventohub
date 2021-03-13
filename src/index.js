@@ -7,6 +7,7 @@ import Events from './Events.js';
 import About from './About.js';
 import Contact from './Contact.js';
 import reportWebVitals from './reportWebVitals';
+import AddEvent from './AddEvent.js'
 
 ReactDOM.render(
   <React.StrictMode>

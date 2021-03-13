@@ -1,6 +1,7 @@
 @import url('bootstrap/dist/css/bootstrap.min.css');
 
 .swiper-container {
+    margin-top: 10%;
     width: 80%;
     height: 300px;
     border-radius: 50px;

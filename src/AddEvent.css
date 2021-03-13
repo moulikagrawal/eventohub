@@ -1,0 +1,10 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+form {
+    margin: 5% 30%;
+}
+
+#desc {
+    margin-left: 15%;
+    min-height: 100px;
+}

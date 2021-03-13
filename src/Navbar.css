@@ -5,7 +5,7 @@
     top: 0;
     z-index: 2;
     width: 100%;
-    background-color: white;
+    background-color:#15131E;
     border-bottom: 2px solid red;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .nav-item {
-    padding: 30px 50px;
+    padding: 30px 30px;
 }
 
 .navbar-link:hover {
@@ -29,17 +29,18 @@
 }
 
 .navbar-link {
-    color: black;
+    color: #F4F4F6;
 }
 
 .navbar-link:hover {
     text-decoration: none;
     color: red;
+    border-bottom: 2px solid red;
 }
 
 .navbar-link:active {
     text-decoration: none;
-    font-weight: 500;
+    /* font-weight: 500; */
     background-color: red;
     color: white;
 }

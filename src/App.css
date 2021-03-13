@@ -1,5 +1,6 @@
 @import url('bootstrap/dist/css/bootstrap.min.css');
 
 body {
-    background-color: white;
+    background-color: #1D1D27;
+    font-family: "Circular Std Bold", Circular Std Bold;
 }

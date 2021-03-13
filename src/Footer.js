@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function Footer() {
     return (
@@ -11,11 +11,11 @@ function Footer() {
                     {/* <img src={logo} className='footer-img' alt='' /> */}
                     <div className='quick-access'>
                         <p className='title'>Quick Access</p>
-                        <ul>    
-                            <li>Home</li>
-                            <li>Events</li>
-                            <li>About</li>
-                            <li>Contact Us</li>
+                        <ul>
+                            <Link to='/'><li>Home</li></Link>
+                            <Link to='/Events'><li>Events</li></Link>
+                            <Link to='/About'><li>About</li></Link>
+                            <Link to='/Contact'><li>Contact Us</li></Link>
                         </ul>
                     </div>
                 </div>
