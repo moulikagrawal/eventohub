@@ -15,7 +15,7 @@ function Navbar() {
                         <Link className='navbar-link' to='/Events'><li className='nav-item'>Events</li></Link>
                         <Link className='navbar-link' to='/About'><li className='nav-item'>About</li></Link>
                         <Link className='navbar-link' to='/Contact'><li className='nav-item'>Contact Us</li></Link>
-                        <Link className='navbar-link' to='/Login'><li className='nav-item'>Login/ Signup</li></Link>
+                        <Link className='navbar-link' to='/AddEvent'><li className='nav-item'>Add Event</li></Link>
                     </ul>
                 </div>
             </nav>

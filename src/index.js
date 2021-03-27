@@ -18,6 +18,7 @@ ReactDOM.render(
         <Route path="/Events" component={Events} />
         <Route path="/About" component={About} />
         <Route path="/Contact" component={Contact} />
+        <Route path="/AddEvent" component={AddEvent} />
         <Route path="/Login" component={Login} />
       </Switch>
       </BrowserRouter>
