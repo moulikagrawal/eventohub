@@ -4,9 +4,13 @@
     margin-top: 10%;
     width: 80%;
     height: 300px;
-    border-radius: 50px;
+    border-radius: 30px;
     border: 2px solid royalblue;
-    z-index: auto;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    z-index: 10;
+    margin: 50px;
 }
 
 img {

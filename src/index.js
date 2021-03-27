@@ -8,6 +8,7 @@ import About from './About.js';
 import Contact from './Contact.js';
 import reportWebVitals from './reportWebVitals';
 import AddEvent from './AddEvent.js'
+import Login from './Login.js'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path="/Events" component={Events} />
         <Route path="/About" component={About} />
         <Route path="/Contact" component={Contact} />
+        <Route path="/Login" component={Login} />
       </Switch>
       </BrowserRouter>
   </React.StrictMode>,

@@ -1,5 +1,9 @@
 @import url('bootstrap/dist/css/bootstrap.min.css');
 
 body {
-    font-family: Georgia, Verdana, Helvetica;
+    color: white;
+}
+
+label {
+    color: black;
 }

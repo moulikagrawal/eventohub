@@ -1,5 +1,9 @@
 @import url('bootstrap/dist/css/bootstrap.min.css');
 
+#confirmation {
+    color: red;
+}
+
 form {
     margin: 5% 35%;
     padding: 30px;

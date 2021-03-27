@@ -35,6 +35,7 @@
 .event-desc {
     margin-top: 15px;
     padding-top: 5px;
+    color: #000;
     border-top: 2px solid royalblue;
     text-align: left;
 }
